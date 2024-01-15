@@ -2,7 +2,7 @@ sudo nmap -sC -sV 10.10.249.93
 ![Image](./attachments/Pasted_image 20231219172106.png)
 
 gobuster dir -u 10.10.136.132 -w /usr/share/wordlist/
-![Image](./attachments/Pasted_image 20231220105112.png)
+![Image](./attachments/Pasted_image_20231220105112.png)
 
 Looked at the source code on the normal page. Then at the admin page and found this:
 ![Image](./attachments/Pasted_image 20231220105137.png)
